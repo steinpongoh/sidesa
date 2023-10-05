@@ -14,7 +14,7 @@ $jumlahWanita=count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanita"
   <section id="home" class="home w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <h3 class="animate__animated animate__slideInLeft">SISTEM INFORMASI</h3>
-      <h1 class="animate__animated animate__slideInRight">DESA TATAARAN</h1>
+      <h1 class="animate__animated animate__slideInRight">DESA TONDANGOW</h1>
     </main>
   </section>
   <!-- Home -->
