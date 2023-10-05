@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,10 +20,11 @@
   <!-- Animated.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-md bg-body-transparent fixed-top mynavbar">
+  <nav class="navbar navbar-expand-md bg-body-transparent fixed-top mynavbar">
     <div class="container">
       <a class="navbar-brand animate__animated animate__lightSpeedInLeft" href="index.html">Desa Tondangow</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -40,7 +39,7 @@
         </div>
         <div class="offcanvas-body">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link animate__animated animate__fadeIn" href="index.html">Beranda</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="index.php">Beranda</a>
             <a class="nav-link animate__animated animate__fadeIn" href="berita.html">Berita</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -73,6 +72,5 @@
     </div>
   </nav>
 </body>
+
 </html>
-
-
