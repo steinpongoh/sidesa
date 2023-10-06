@@ -9,7 +9,7 @@
 
 ::-webkit-scrollbar{
     scroll-behavior: smooth;
-    display: none;
+    /* display: none; */
 }
 
 body  {
