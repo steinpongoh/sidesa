@@ -20,6 +20,9 @@
   <!-- Animated.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>

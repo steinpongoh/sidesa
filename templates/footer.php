@@ -1,3 +1,25 @@
+<?php
+include 'header.php';
+
+?>
+
+<footer>
+    <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+    <div class="credit">
+        <p>Created by <span>kelompokdba</span>. | &copy; 2023.</p>
+    </div>
+</footer>
+
+
+<!-- Feather Icons -->
+<script>
+    feather.replace();
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
