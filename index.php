@@ -7,9 +7,6 @@ $jumlahPria = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Pria"')
 $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanita"'))
 ?>
 
-
-
-<body>
   <!-- Home -->
   <section id="home" class="home w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
@@ -178,8 +175,6 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
     </div>
   </section>
   <!-- Statistik Kependudukan -->
+<?php include 'templates/footer.php';?>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
 
-</html>
