@@ -9,7 +9,7 @@
 
 ::-webkit-scrollbar {
   scroll-behavior: smooth;
-  /* display: none; */
+  display: none;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 
 /* Navbar start */
 .mynavbar {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   /* font-weight: 600;  */
   background-color: var(--green-transparant);
 }
@@ -204,6 +204,10 @@ body {
 /* Pengaduan Masyarakat end */
 
 /* Footer start */
+.footer {
+  height: 200px;
+  background-color: var(--green-transparant);
+}
 /* Footer end*/
 
 /* Media Queries */
@@ -216,6 +220,12 @@ body {
 @media (max-width: 992px) {
   html {
     font-size: 70%;
+  }
+  .strukturpemerintah {
+    min-height: 50vh;
+  }
+  .strukturpemerintah img {
+    width: 500px;
   }
 }
 
@@ -269,5 +279,25 @@ body {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
+  }
+
+  .strukturpemerintah {
+    min-height: 40vh;
+  }
+  .strukturpemerintah img {
+    width: 300px;
+    margin-left: 10rem;
+  }
+
+  .sejarahdesa img {
+    margin-left: 5rem;
+  }
+
+  .statistik {
+    min-height: 40vh;
+    margin: 0 40px;
+  }
+  .statistik span {
+    font-size: 4rem;
   }
 }
