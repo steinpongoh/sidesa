@@ -4,4 +4,6 @@ Fitur :
 - Berita
 - Pengumuman
 - Event
+- Pengaduan Masyarakat
+- Galeri Desa
 - UMKM
