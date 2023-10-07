@@ -20,13 +20,14 @@
   <!-- Animated.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+  <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <nav class="navbar navbar-expand-md bg-body-transparent fixed-top mynavbar">
     <div class="container">
-      <a class="navbar-brand animate__animated animate__lightSpeedInLeft" href="index.html">Desa Tondangow</a>
+      <a class="navbar-brand animate__animated animate__lightSpeedInLeft" href="index.php">Desa Tondangow</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,9 +59,11 @@
                 <li>
                   <a class="dropdown-item" href="#tatatertib">Tata Tertib Desa</a>
                 </li>
+                <li>
+                  <a class="dropdown-item" href="#statistik">Statistik Kependudukan</a>
+                </li>
               </ul>
             </li>
-            <a class="nav-link animate__animated animate__fadeIn" href="#statistik">Statistik Kependudukan</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengumuman.html">Pengumuman</a>
             <a class="nav-link animate__animated animate__fadeIn" href="event.html">Event</a>
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.html">UMKM</a>
