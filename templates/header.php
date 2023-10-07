@@ -20,7 +20,7 @@
   <!-- Animated.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -64,7 +64,7 @@
             <a class="nav-link animate__animated animate__fadeIn" href="pengumuman.html">Pengumuman</a>
             <a class="nav-link animate__animated animate__fadeIn" href="event.html">Event</a>
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.html">UMKM</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="galeri.html">Galeri</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.html">Pengaduan Masyarakat</a>
           </div>
         </div>
