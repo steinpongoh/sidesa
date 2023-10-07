@@ -15,7 +15,6 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  /* min-height: 4000px; */
   background-color: var(--bg);
   overflow-x: hidden;
 }
@@ -161,7 +160,7 @@ body {
 
 /* Statistik Kependudukan start*/
 .statistik {
-  min-height: 100vh;
+  min-height: 80vh;
   padding-top: 3rem;
   padding-bottom: 3rem;
   line-height: 2rem;
@@ -204,9 +203,33 @@ body {
 /* Pengaduan Masyarakat end */
 
 /* Footer start */
-.footer {
-  height: 200px;
-  background-color: var(--green-transparant);
+footer {
+  background-color: rgb(93 142 133 / 0.3);
+  text-align: center;
+  padding: 1rem 0 1rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+footer .socials a {
+  color: #000;
+  margin: 0.7rem;
+}
+
+footer .socials a:hover {
+  color: var(--green);
+}
+
+footer .credit {
+  font-size: 1rem;
+}
+
+footer .credit span {
+  color: var(--green);
 }
 /* Footer end*/
 
