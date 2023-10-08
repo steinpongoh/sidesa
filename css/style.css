@@ -188,16 +188,17 @@ body {
 
 .pengaduan {
   min-height: 100vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  /* background-color: var(--green-transparant); */
-  /* border: 2px solid black; */
+  padding-top: 5rem;
+  background-color: #f5f5f5;
 }
 
-.pengaduan h2 {
+.pengaduan h1 {
   color: var(--green);
   font-weight: 600;
-  margin-bottom: 2rem;
+}
+
+.pengaduan label {
+  font-size: 1rem;
 }
 
 /* Pengaduan Masyarakat end */
