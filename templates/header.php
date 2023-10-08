@@ -17,6 +17,7 @@
   <!-- Bootstrap Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
+
   <!-- Animated.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -71,7 +72,7 @@
             <a class="nav-link animate__animated animate__fadeIn" href="event.html">Event</a>
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.html">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.html">Pengaduan Masyarakat</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
           </div>
         </div>
       </div>
