@@ -55,7 +55,7 @@ body {
 
 /* Navbar start */
 .mynavbar {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   /* font-weight: 600;  */
   background-color: var(--green-transparant);
 }
@@ -65,13 +65,13 @@ body {
 }
 
 .mynavbar .dropdown-menu .dropdown-item {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: white;
 }
@@ -312,6 +312,10 @@ footer .credit span {
   .tatatertib {
     min-height: 60vh;
   }
+  .statistik {
+    min-height: 50vh;
+    margin: 0 40px;
+  }
 }
 
 /* Mobile Phone */
@@ -329,6 +333,7 @@ footer .credit span {
   }
 
   .sejarahdesa img {
+    width: 300px;
     margin-left: 5rem;
   }
 
