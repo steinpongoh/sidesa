@@ -2,7 +2,7 @@
 include 'templates/header.php';
 include 'function.php';
 $jumlahPenduduk = count(query('SELECT * FROM penduduk'));
-$jumlahKepalaKeluarga = count(query('SELECT * FROM keluarga INNER JOIN penduduk ON keluarga.id = penduduk.id'));
+$jumlahKepalaKeluarga = count(query('SELECT * FROM keluarga'));
 $jumlahPria = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Pria"'));
 $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanita"'))
 ?>

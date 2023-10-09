@@ -11,7 +11,6 @@ include 'templates/header.php';
                 <h1>Galeri Desa</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, nisi.</p>
             </div>
-
             <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
                 <div class="col mt-3">
                     <a href="img/galeri/desa1.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
