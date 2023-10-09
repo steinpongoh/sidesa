@@ -22,3 +22,7 @@ include 'function.php';
   </div>
   </div>
 </section>
+
+<?php
+include 'templates/footer.php';
+?>
