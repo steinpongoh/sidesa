@@ -20,9 +20,9 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 <section id="strukturpemerintah" class="strukturpemerintah">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-8 text-center">
+      <div class="col-md-8 text-center" data-aos="fade-left" data-aos-duration="1000">
         <h2>Struktur Pemerintahan</h2>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-right">
           <img src="img/struktur.png" alt="" class="img-responsive" />
         </div>
       </div>
@@ -35,7 +35,7 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 <section id="visimisi" class="visimisi">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-8 text-center">
+      <div class="col-md-8 text-center" data-aos="zoom-in-down">
         <h2>Visi & Misi Desa</h2>
         <h4>Visi</h4>
         <p>
@@ -84,13 +84,13 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 <section id="sejarahdesa" class="sejarahdesa">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7">
+      <div class="col-lg-7" data-aos="zoom-in-up">
         <h2>Sejarah Desa</h2>
         <p>Desa Tondangow adalah sebuah permukiman kecil yang didirikan pada abad ke-17 oleh sekelompok petani yang bermigrasi mencari tanah subur dan tempat aman. Mereka membangun desa di sekitar sumber air yang melimpah.</p>
         <p>Pada abad ke-18 dan ke-19, Desa Tondangow tumbuh pesat berkat pertumbuhan pertanian dan perdagangan. Tanah subur dan iklim yang baik memungkinkan desa ini memproduksi hasil pertanian yang dicari di pasar regional, menjadikannya pusat perdagangan penting.</p>
         <p>Selama abad ke-20, Desa Tondangow memainkan peran kunci dalam perjuangan kemerdekaan Nama Negara. Penduduk desa secara aktif terlibat dalam gerakan kemerdekaan melawan penjajah, menandai sejarah perjuangan dan patriotisme desa ini.</p>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-5" data-aos="flip-right">
         <img src="img/sejarahdesa.jpg" alt="" class="img-responsive" />
       </div>
     </div>
@@ -102,7 +102,7 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 <section id="tatatertib" class="tatatertib">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-8 text-center">
+      <div class="col-md-8 text-center" data-aos="zoom-in-left">
         <h2>Tata Tertib Desa</h2>
         <ol class="text-start">
           <li>
@@ -151,7 +151,7 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 <!-- Statistik Kependudukan -->
 <section id="statistik" class="statistik">
   <div class="row justify-content-center">
-    <div class="col-md-8 text-center">
+    <div class="col-md-8 text-center" data-aos="fade-down-left">
       <h2>Statistik Kependudukan</h2>
       <div class="col-lg-6 d-flex justify-content-between align-items-center w-100 h-100">
         <span><i class="bi bi-people"></i><br />

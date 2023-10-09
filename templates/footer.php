@@ -25,6 +25,12 @@ include 'header.php';
 
 <!-- lightbox bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+<!-- Animate on scroll library -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>

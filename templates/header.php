@@ -24,6 +24,9 @@
   <!-- Feather Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
 
+  <!-- Animate on scroll library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -70,7 +73,7 @@
             </li>
             <a class="nav-link animate__animated animate__fadeIn" href="pengumuman.html">Pengumuman</a>
             <a class="nav-link animate__animated animate__fadeIn" href="event.html">Event</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="umkm.html">UMKM</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
           </div>
