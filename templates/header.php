@@ -45,7 +45,7 @@
         <div class="offcanvas-body">
           <div class="navbar-nav ms-auto">
             <a class="nav-link animate__animated animate__fadeIn" href="index.php">Beranda</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="berita.html">Berita</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="berita.php">Berita</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Profil Desa
