@@ -31,6 +31,12 @@ include 'header.php';
 <script>
     AOS.init();
 </script>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
 </body>
 
 </html>
