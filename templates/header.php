@@ -74,7 +74,7 @@
               </ul>
             </li>
             <a class="nav-link animate__animated animate__fadeIn" href="pengumuman.html">Pengumuman</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="event.html">Event</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="event.php">Event</a>
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>

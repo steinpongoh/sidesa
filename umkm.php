@@ -25,7 +25,7 @@ include 'templates/header.php';
                                 <h2 class="name">Pisang Goreng</h2>
                                 <p class="harga">Harga Produk</p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -41,7 +41,7 @@ include 'templates/header.php';
                                 <h2 class="name">Ikang Masa</h2>
                                 <p class="harga">Harga produk</p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -57,7 +57,7 @@ include 'templates/header.php';
                                 <h2 class="name">Ikang Masa</h2>
                                 <p class="harga">Harga Produk</p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -75,7 +75,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -93,7 +93,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -111,7 +111,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -129,7 +129,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -147,7 +147,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -165,7 +165,7 @@ include 'templates/header.php';
                                     Harga Produk
                                 </p>
 
-                                <button class="button">Baca Selengkapnya</button>
+                                <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
                     </div>
