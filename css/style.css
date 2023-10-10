@@ -207,6 +207,13 @@ body {
 
 /* Statistik Kependudukan end */
 
+/* Berita start */
+.berita h1 {
+  color: var(--green);
+  font-weight: 600;
+}
+/* Berita end*/
+
 /* UMKM Start */
 .produk {
   min-height: 100vh;

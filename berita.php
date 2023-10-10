@@ -9,9 +9,9 @@ include 'function.php';
     <div class="container" style="margin-top: 80px;">
       <h1 class="text-center">BERITA</h1>
       <h3 class="text-center">Berikut ini adalah berita seputar Desa Tondangow.</h3>
-      <div class="row g-0 bg-body-secondary position-relative">
+      <div class="row g-0 bg-body-secondary position-relative shadow border-top border-success rounded-2 border-3">
         <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="img/galeri/desa1.jpg" class="w-100 animate__animated animate__zoomIn" alt="">
+          <img src="img/galeri/desa1.jpg" class="w-100 animate__animated animate__zoomIn rounded-3" alt="">
         </div>
         <div class="col-md-6 p-4 ps-md-0 animate__animated animate__fadeIn">
           <h5 class="text-center mt-0">judul berita</h5>
