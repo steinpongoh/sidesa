@@ -495,7 +495,7 @@ body {
 /* Gallery start */
 .gallery {
   min-height: 110vh;
-  padding-top: 5rem;
+  padding: 5rem 0;
   margin-bottom: -3rem;
   background-color: #f5f5f5;
 }
@@ -503,6 +503,12 @@ body {
 .gallery h1 {
   color: var(--green);
   font-weight: 600;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* Gallery end */
