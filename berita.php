@@ -1,5 +1,6 @@
 <?php
 include 'templates/header.php';
+require 'function.php';
 
 $query = query('SELECT * FROM berita');
 
