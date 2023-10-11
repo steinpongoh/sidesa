@@ -26,19 +26,23 @@ if (isset($_POST['kirim'])) {
         <div class="container-form shadow p-5 mt-4 mb-4 rounded-2 border-top border-success border-3 bg-light">
           <div class="mb-3">
             <label for="nama" class="form-label">Nama Lengkap:</label>
-            <input name="nama" type="text" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" id="nama">
+            <input name="nama" type="text" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="nama">
           </div>
           <div class="mb-3">
             <label for="alamat" class="form-label">Alamat:</label>
-            <input name="alamat" type="text" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" id="alamat">
+            <input name="alamat" type="text" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="alamat">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input name="email" type="email" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="email">
           </div>
           <div class="mb-3">
             <label for="no_telp" class="form-label">Nomor Telepon:</label>
-            <input name="no_telp" type="number" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" id="no_telp">
+            <input name="no_telp" type="number" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="no_telp">
           </div>
           <div class="mb-3">
             <label for="judul" class="form-label">Judul:</label>
-            <input name="judul" type="text" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" id="judul">
+            <input name="judul" type="text" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="judul">
           </div>
           <div class="mb-3">
             <label for="tanggal" class="form-label">Tanggal pengaduan:</label>
@@ -50,7 +54,7 @@ if (isset($_POST['kirim'])) {
           </div>
           <div class="mb-3">
             <label for="detail" class="form-label">Isi Pengaduan:</label>
-            <textarea form="form" name="detail" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" id="detail" rows="5"></textarea>
+            <textarea form="form" name="detail" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="detail" rows="5"></textarea>
           </div>
           <div class="mt-3">
             <button type="submit" id="kirim" name="kirim" class="btn btn-success d-flex justify-content-end">Kirim</button>
