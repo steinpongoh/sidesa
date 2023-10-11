@@ -31,6 +31,7 @@
 
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="/sidesa/img/village.png" type="image/x-icon">
 </head>
 
 <body>
