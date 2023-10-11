@@ -1,5 +1,24 @@
 <?php
 include 'templates/header.php';
+require 'function.php';
+
+$query = query('SELECT DISTINCT
+penduduk.nama,
+penduduk.nik,
+penjual.id_penjual,
+penjual.nama_penjual,
+penjual.no_telepon,
+penjual.alamat_toko,
+produk.id_produk,
+produk.id_penjual,
+produk.nama_produk,
+produk.harga,
+produk.gambar 
+
+FROM produk 
+JOIN penjual ON produk.id_penjual=penjual.id_penjual
+JOIN penduduk ON penjual.nama_penjual=penduduk.id');
+
 ?>
 
 <section class="produk" id="produk">
@@ -12,170 +31,177 @@ include 'templates/header.php';
             <div class="slide-container swiper" data-aos="fade-down-right">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
+                        <?php foreach ($query as $content)  ?>
                         <div class="card swiper-slide">
                             <div class="image-content">
                                 <span class="overlay"></span>
-
                                 <div class="card-image">
-                                    <img src="img/umkm/1.jpg" alt="" class="card-img" />
+                                    <img src="img/umkm/<?= $content['gambar'] ?>" alt="" class="card-img" />
                                 </div>
                             </div>
-
                             <div class="card-content">
-                                <h2 class="name">Pisang Goreng</h2>
-                                <p class="harga">Harga Produk</p>
-
-                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Info Selengkapnya</button>
+                                <h2 class="name"><?= $content['nama_produk'] ?></h2>
+                                <p class="harga">Rp<?= $content['harga'] ?></p>
+                                <a href="detailUmkm.php?id=<?= $content['id_produk'] ?>">
+                                    <button class="button">Info Selengkapnya</button></a>
                             </div>
                         </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
 
-                                <div class="card-image">
-                                    <img src="img/umkm/2.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
+                        <div class="card-content">
+                            <h2 class="name">Pisang Goreng</h2>
+                            <p class="harga">Harga Produk</p>
 
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">Harga produk</p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/3.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">Harga Produk</p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/4.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/5.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/6.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/7.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/8.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/9.jpg" alt="" class="card-img" />
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Ikang Masa</h2>
-                                <p class="harga">
-                                    Harga Produk
-                                </p>
-
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
+                            <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Info Selengkapnya</button>
                         </div>
                     </div>
-                </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
 
-                <div class="swiper-button-next swiper-navBtn"></div>
-                <div class="swiper-button-prev swiper-navBtn"></div>
-                <div class="swiper-pagination"></div>
+                            <div class="card-image">
+                                <img src="img/umkm/2.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">Harga produk</p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/3.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">Harga Produk</p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/4.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/5.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/6.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/7.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/8.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/umkm/9.jpg" alt="" class="card-img" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Ikang Masa</h2>
+                            <p class="harga">
+                                Harga Produk
+                            </p>
+
+                            <button class="button">Info Selengkapnya</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
         </div>
+    </div>
     </div>
     <!-- Modal UMKM Start -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

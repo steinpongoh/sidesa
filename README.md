@@ -1,9 +1,9 @@
 # webdesa
 Fitur :
-- Statistik Penduduk
-- Berita
-- Pengumuman
-- Event
-- Pengaduan Masyarakat
-- Galeri Desa
-- UMKM
+- Statistik Penduduk (front-end✅)
+- Berita (front-end✅)
+- Pengumuman (front-end✅)
+- Event (front-end✅)
+- Pengaduan Masyarakat (front-end✅)
+- Galeri Desa (front-end✅)
+- UMKM (front-end✅)
