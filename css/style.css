@@ -208,11 +208,61 @@ body {
 /* Statistik Kependudukan end */
 
 /* Berita start */
+.berita {
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
+}
+
 .berita h1 {
   color: var(--green);
   font-weight: 600;
 }
 /* Berita end*/
+/* Pengumuman Start */
+.pengumuman {
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
+}
+
+.pengumuman h1 {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.kolom {
+  border-radius: 0.8rem;
+  padding: 1rem;
+  /* background-color: var(--green-transparant); */
+  justify-content: center;
+}
+.kolom h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.kolom p {
+  font-size: 1rem;
+}
+
+.kolom-child {
+  color: #393e41;
+  border-radius: 0.8rem;
+  margin: 0.8rem;
+  padding: 1rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.kolom-child:nth-child(odd) {
+  background-color: #4d8b7f;
+}
+.kolom-child:nth-child(even) {
+  background-color: #ffa500;
+}
+
+/* Pengumuman End */
 
 /* Event Start */
 .event {
@@ -226,13 +276,13 @@ body {
   font-weight: 600;
 }
 
-.card {
+.card-event {
   margin-top: 1rem;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.card:hover {
+.card-event:hover {
   border-width: 6px;
   border-color: #46877b;
   border-bottom: 10px;

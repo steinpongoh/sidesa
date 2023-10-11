@@ -5,11 +5,11 @@ include 'templates/header.php';
 <section class="produk" id="produk">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8 col-10 text-center">
+            <div class="col-md-8 col-10 text-center" data-aos="fade-down-left">
                 <h1>UMKM Desa</h1>
                 <p>Sistem informasi Desa Tondangow menyediakan informasi-informasi terkait UMKM yang ada di Desa Tondangow</p>
             </div>
-            <div class="slide-container swiper">
+            <div class="slide-container swiper" data-aos="fade-down-right">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
                         <div class="card swiper-slide">
