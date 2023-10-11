@@ -15,7 +15,7 @@ include 'function.php';
         </div>
         <div class="col-md-6 p-4 ps-md-0 animate__animated animate__fadeIn">
           <h5 class="text-center mt-0">judul berita</h5>
-          <p class="d-block overflow-y-hidden" style="max-height:250px">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit tenetur inventore culpa sint praesentium id voluptatem nisi rerum laudantium! Cumque blanditiis animi quaerat eveniet reiciendis aliquid provident necessitatibus alias voluptatum!</p>
+          <p class="d-block overflow-y-hidden" style="max-height:250px; text-indent: 30px; text-align: justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit tenetur inventore culpa sint praesentium id voluptatem nisi rerum laudantium! Cumque blanditiis animi quaerat eveniet reiciendis aliquid provident necessitatibus alias voluptatum!</p>
           <a href="#" class="stretched-link">Selengkapnya</a>
         </div>
       </div>
