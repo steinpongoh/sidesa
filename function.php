@@ -15,6 +15,7 @@
         global $dbconnect;
         $nama_pengadu=$data['nama'];
         $alamat_lengkap=$data['alamat'];
+        $email=$data['email'];
         $no_telepon=$data['no_telp'];
         $judul_pengaduan=$data['judul'];
         $tanggal_pengaduan=$data['tanggal'];
@@ -23,7 +24,7 @@
         $direktori='img/pengaduan/';
         $foto=$file['gambar']['name'];
         move_uploaded_file($file['gambar']['tmp_name'],$direktori.$foto);
-        $queryAdd="INSERT INTO pengaduan VALUES('','$nama_pengadu','$alamat_lengkap','$judul_pengaduan','$isi_pengaduan','$tanggal_pengaduan','$no_telepon','$foto')";
+        $queryAdd="INSERT INTO pengaduan VALUES('','$nama_pengadu','$alamat_lengkap','$email','$judul_pengaduan','$isi_pengaduan','$tanggal_pengaduan','$no_telepon','$foto')";
         mysqli_query($dbconnect, $queryAdd);
         return mysqli_affected_rows($dbconnect);
     }
