@@ -389,6 +389,40 @@ body {
   color: #707070;
   text-align: center;
 }
+/* UMKM-Modal start */
+.deskripsi-modal {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  color: #333;
+}
+.alamat {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+.kontak {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+.card-image-model {
+  position: relative;
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 3px;
+}
+.card-image-model .card-img-model {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid var(--green);
+}
+/* UMKM-Modal end */
 .button {
   border: none;
   font-size: 16px;

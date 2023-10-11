@@ -25,7 +25,7 @@ include 'templates/header.php';
                                 <h2 class="name">Pisang Goreng</h2>
                                 <p class="harga">Harga Produk</p>
 
-                                <button class="button">Info Selengkapnya</button>
+                                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Info Selengkapnya</button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -177,6 +177,39 @@ include 'templates/header.php';
             </div>
         </div>
     </div>
+    <!-- Modal UMKM Start -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Nama Produk</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image-model">
+                                <img src="img/umkm/1.jpg" alt="" class="card-img-model" />
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <p class="deskripsi-modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero harum rem doloribus provident quas? Beatae tempore harum commodi pariatur distinctio, vitae cupiditate nulla assumenda! Nostrum similique aliquam fugit earum error!</p>
+                            <p class="alamat">Alamat</p>
+                            <p class="kontak">Kontak</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal UMKM End -->
 </section>
 <?php
 include 'templates/footer.php';
