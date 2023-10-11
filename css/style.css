@@ -391,10 +391,10 @@ body {
 }
 /* UMKM-Modal start */
 .deskripsi-modal {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
-  font-weight: 600;
+  font-weight: 500;
   color: #333;
 }
 .alamat {
@@ -422,6 +422,7 @@ body {
   border-radius: 8px;
   border: 2px solid var(--green);
 }
+
 /* UMKM-Modal end */
 .button {
   border: none;
