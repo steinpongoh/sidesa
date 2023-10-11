@@ -1,5 +1,5 @@
 <?php
-include 'templates/header1.php';
+include 'templates/header.php';
 include 'function.php';
 $jumlahPenduduk = count(query('SELECT * FROM penduduk'));
 $jumlahKepalaKeluarga = count(query('SELECT * FROM keluarga'));

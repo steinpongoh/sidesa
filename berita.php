@@ -1,6 +1,5 @@
 <?php
 include 'templates/header.php';
-include 'function.php';
 
 ?>
 
