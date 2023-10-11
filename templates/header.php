@@ -78,6 +78,8 @@
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
+            <div class="vr" style="margin-left:5px"></div>
+            <a class="nav-link animate__animated animate__fadeIn" style="margin-left:5px" href="#">Login</a>
           </div>
         </div>
       </div>
