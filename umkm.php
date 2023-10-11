@@ -31,21 +31,21 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
             <div class="slide-container swiper" data-aos="fade-down-right">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
-                        <?php foreach($query as $content){?>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-                                <div class="card-image">
-                                    <img src="img/umkm/<?=$content['gambar']?>" alt="" class="card-img" />
+                        <?php foreach ($query as $content) { ?>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="img/umkm/<?= $content['gambar'] ?>" alt="" class="card-img" />
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name"><?= $content['nama_produk'] ?></h2>
+                                    <p class="harga">Rp<?= $content['harga'] ?></p>
+                                    <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Info Selengkapnya</button>
                                 </div>
                             </div>
-                            <div class="card-content">
-                                <h2 class="name"><?=$content['nama_produk']?></h2>
-                                <p class="harga">Rp<?=$content['harga']?></p>
-                                <button class="button">Info Selengkapnya</button>
-                            </div>
-                        </div>
-                        <?php }?>
+                        <?php } ?>
                     </div>
                     <div class="swiper-button-next swiper-navBtn"></div>
                     <div class="swiper-button-prev swiper-navBtn"></div>
@@ -55,13 +55,13 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
         </div>
         <!-- Modal UMKM Start -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Nama Produk</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body ">
+                    <div class="modal-body">
                         <div class="card swiper-slide">
                             <div class="image-content">
                                 <span class="overlay"></span>
@@ -71,10 +71,11 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
                                 </div>
                             </div>
 
-                            <div class="card-content">
-                                <p class="deskripsi-modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero harum rem doloribus provident quas? Beatae tempore harum commodi pariatur distinctio, vitae cupiditate nulla assumenda! Nostrum similique aliquam fugit earum error!</p>
-                                <p class="alamat">Alamat</p>
-                                <p class="kontak">Kontak</p>
+                            <div class="card-content-model">
+                                <p class="deskripsi-modal">Deskripsi Produk
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex aperiam, voluptatem optio labore aspernatur culpa pariatur et rem nam aliquam architecto quia! Ratione, molestias. Fugiat possimus asperiores doloribus deleniti quos nobis commodi magnam quasi, aliquam, nostrum alias? Harum, atque. Ratione vel architecto assumenda reiciendis eos voluptatibus sint optio non dolorem!
+                                <p class="alamat text-center">Alamat</p>
+                                <p class="kontak text-center">Kontak</p>
 
                             </div>
                         </div>
