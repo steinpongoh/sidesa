@@ -2,14 +2,14 @@
 include 'templates/header.php';
 include 'function.php';
 
-if(isset($_POST['kirim'])){
-  if(pengaduan($_POST, $_FILES)>0){
-    echo"<script>
+if (isset($_POST['kirim'])) {
+  if (pengaduan($_POST, $_FILES) > 0) {
+    echo "<script>
       alert('Pengaduan Berhasil Di Kirim')
       document.location.href='index.php'
-    </script>";  
+    </script>";
   } else {
-    echo"<script>
+    echo "<script>
       alert('Pengaduan Gagal Di Kirim')
     </script>";
   }
@@ -19,7 +19,7 @@ if(isset($_POST['kirim'])){
 
 <section id="pengaduan" class="pengaduan">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" data-aos="fade-down-left">
       <form id="form" method="post" action="" class="col-md-8 col-10 " enctype="multipart/form-data">
         <h1 class="text-center">Pengaduan Masyarakat</h1>
         <p class="text-center">Sistem Informasi Desa Tondangow menyediakan forum pengaduan masyarakat, apabila ada masyarakat yang ingin melakukan pengaduan</p>
