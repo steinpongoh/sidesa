@@ -20,7 +20,7 @@ $query = query('SELECT * FROM berita');
           <div class="col-md-6 p-4 ps-md-0 animate__animated animate__fadeIn">
             <h5 class="text-center mt-0 text-uppercase text"><?= $berita['judul_berita'] ?></h5>
             <p class="d-block overflow-y-hidden" style="max-height:250px; text-align: justify"><?php echo substr($berita['detail_berita'], 0, 100) ?>...</p>
-            <a href="detailBerita.php?id=<?=$berita['id']?>" class="stretched-link">Selengkapnya</a>
+            <a href="detailBerita.php?id=<?= $berita['id'] ?>" class="stretched-link">Baca Selengkapnya</a>
           </div>
 
         </div>
