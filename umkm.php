@@ -72,7 +72,7 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
                             </div>
 
                             <div class="card-content-model">
-                                <p class="deskripsi-modal">Deskripsi Produk
+                                <p class="deskripsi-modal">Deskripsi Produk <br>
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex aperiam, voluptatem optio labore aspernatur culpa pariatur et rem nam aliquam architecto quia! Ratione, molestias. Fugiat possimus asperiores doloribus deleniti quos nobis commodi magnam quasi, aliquam, nostrum alias? Harum, atque. Ratione vel architecto assumenda reiciendis eos voluptatibus sint optio non dolorem!
                                 <p class="alamat text-center">Alamat</p>
                                 <p class="kontak text-center">Kontak</p>
