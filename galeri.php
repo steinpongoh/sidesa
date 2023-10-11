@@ -1,7 +1,7 @@
 <?php
-
 include 'templates/header.php';
-
+require 'function.php';
+$query=query("SELECT * FROM galeri")    ;
 ?>
 
 <section id="gallery" class="gallery">
@@ -12,46 +12,13 @@ include 'templates/header.php';
                 <p>Galeri ini dibuat untuk mempromosikan desa, menampilkan budaya, tradisi, keindahan alam, dan kegiatan masyarakat Desa Tondangow.</p>
             </div>
             <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center" data-aos="zoom-in-right">
+                <?php foreach($query as $foto){?>
                 <div class="col mt-3">
-                    <a href=" img/galeri/desa1.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa1.jpg" alt="desa1" class="img-fluid w-100 rounded">
+                    <a href=" img/galeri/<?= $foto['gambar']?>" data-toggle="lightbox" data-caption="<?=$foto['caption']?>" data-gallery="mygallery">
+                        <img src="img/galeri/<?= $foto['gambar']?>" alt="<?=$foto['caption']?>" class="img-fluid w-100 rounded">
                     </a>
                 </div>
-                <div class="col mt-3">
-                    <a href=" img/galeri/desa2.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa2.jpg" alt="desa2" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
-                <div class="col mt-3">
-                    <a href="img/galeri/desa3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
-                        <img src="img/galeri/thumbnail/desa3.jpg" alt="desa3" class="img-fluid w-100 rounded">
-                    </a>
-                </div>
+                <?php }?>
             </div>
         </div>
     </div>
