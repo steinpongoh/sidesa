@@ -31,38 +31,21 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
             <div class="slide-container swiper" data-aos="fade-down-right">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
+                        <?php foreach($query as $content){?>
                         <div class="card swiper-slide">
                             <div class="image-content">
                                 <span class="overlay"></span>
-
                                 <div class="card-image">
-                                    <img src="img/umkm/1.jpg" alt="" class="card-img" />
+                                    <img src="img/umkm/<?=$content['gambar']?>" alt="" class="card-img" />
                                 </div>
                             </div>
-
                             <div class="card-content">
-                                <h2 class="name">Pisang Goreng</h2>
-                                <p class="harga">Harga Produk</p>
-
+                                <h2 class="name"><?=$content['nama_produk']?></h2>
+                                <p class="harga">Rp<?=$content['harga']?></p>
                                 <button class="button">Info Selengkapnya</button>
                             </div>
                         </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="img/umkm/2.jpg" alt="" class="card-img" />
-                                </div>
-                                <div class="card-content">
-                                    <h2 class="name"><?= $content['nama_produk'] ?></h2>
-                                    <p class="harga">Rp<?= $content['harga'] ?></p>
-                                    <a href="detailUmkm.php?id=<?= $content['id_produk'] ?>">
-                                        <button class="button">Info Selengkapnya</button></a>
-                                </div>
-                            </div>
-                            <?php  ?>
-                        </div>
+                        <?php }?>
                     </div>
                     <div class="swiper-button-next swiper-navBtn"></div>
                     <div class="swiper-button-prev swiper-navBtn"></div>
