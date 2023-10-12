@@ -30,11 +30,10 @@ for ($i=0; $i<=count($pecah)-1; $i++)
                 <h2><?php echo $berita['judul_berita'];?></h2>
                 <p class="text-start"><?php echo $berita['tanggal_berita'];?></p>
                 <div class="col-md-4 img-detail">
-                    <img src="img/sejarahdesa.jpg" class="mx-auto d-block" alt="">
+                    <img src="img/galeri/<?= $berita['gambar'] ?>" class="mx-auto d-block" alt="">
                 </div>
                 <div class="col-md-8 justify-content-center w-100">
-                    <p class="isi-berita"><?php echo $berita['detail_berita']=$text;?>
-                    </p>
+                    <p class="isi-berita"><?php echo $berita['detail_berita']=$text;?></p>  
                 </div>
             </div>
         </div>
