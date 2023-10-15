@@ -3,15 +3,6 @@ include 'templates/header1.php';
 include 'function.php';
 
 ?>
-<script type="text/javascript">
-    function preventBack(){
-        window.history.forward()
-        };
-        setTimeout("preventBack()",0);
-        window.onunload=function(){
-          null;
-    }
-</script>
 <section id="login" class="login">
   <div class="container">
     <div class="row justify-content-center" data-aos="fade-down-left">
