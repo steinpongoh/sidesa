@@ -2,7 +2,6 @@
 include 'templates/header1.php';
 include 'function.php';
 
-
 ?>
 
 <section id="login" class="login">
@@ -11,7 +10,11 @@ include 'function.php';
       <form id="form" method="post" action="cekdaftar.php" class="col-md-8 col-10 " enctype="multipart/form-data">
         <h1 class="text-center">Daftar</h1>
         <div class="container-form shadow p-5 mt-4 mb-4 rounded-2 border-top border-success border-3 bg-light">
-        <div class="alert alert-primary" style="text-align:center;"role="alert"> Silahkan masukkan Nama dan Password untuk Daftar.</div>
+        <div class="alert alert-primary" style="text-align:center;"role="alert"> Silahkan masukkan NIK, Nama dan Password untuk Daftar.</div>
+          <div class="mb-3">
+            <label for="nik" class="form-label">NIK</label>
+            <input name="nik" type="text" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" autocomplete="off" required placeholder="Silahkan masukkan NIK anda!" id="nik">
+          </div>
           <div class="mb-3">
             <label for="nama" class="form-label">Nama Lengkap</label>
             <input name="username" type="text" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" autocomplete="off" required placeholder="Silahkan isikan nama anda!" id="nama">
