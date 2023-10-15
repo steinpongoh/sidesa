@@ -78,7 +78,7 @@
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
-            <a class="nav-link animate__animated animate__fadeIn btn-login" style="margin-left:5px" href="login.php">Login</a>
+            <a class="nav-link animate__animated animate__fadeIn btn-login d-flex " style="margin-left:5px" href="login.php">Login</a>
           </div>
         </div>
       </div>
