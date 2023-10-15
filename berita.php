@@ -13,9 +13,8 @@ $query = query('SELECT * FROM berita');
       <p class="text-center">Berikut ini adalah berita seputar Desa Tondangow.</p>
       <?php foreach ($query as $berita) { ?>
         <div class="row g-0 bg-body-secondary position-relative shadow border-top border-success rounded-2 border-3 mt-5">
-
           <div class="col-md-6 mb-md-0 p-md-4">
-            <img src="img/galeri/<?= $berita['gambar'] ?>" class=" w-75 animate__animated animate__zoomIn rounded-3" alt="">
+            <img src="img/galeri/<?= $berita['gambar'] ?>" class="img-fluid mx-auto d-block w-100 animate__animated animate__zoomIn rounded-3" alt="">
           </div>
           <div class="col-md-6 p-4 ps-md-0 animate__animated animate__fadeIn">
             <h5 class="text-center mt-0 text-uppercase text"><?= $berita['judul_berita'] ?></h5>

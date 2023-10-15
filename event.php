@@ -29,19 +29,20 @@ $query = query("SELECT * FROM `event`");
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Judul Acara</h1>
+                    <h1 class="modal-title w-100 text-center fs-5" id="exampleModalLabel">Judul Acara</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="card-image-event ">
+                <div class="modal-body overflow-x-hidden">
+                    <div class="card-image-event w-100">
                         <img src="img/umkm/1.jpg" alt="" class="card-img-event" />
                     </div>
-                    <p class="lokasi-event">Lokasi</p>
                     <p class="tanggal-event">Tanggal Event</p>
-                    <p class="detail-event">Detail Event <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro soluta cum fuga quidem autem id odio dolor velit vero, aut ullam quaerat quod ad! Beatae blanditiis et assumenda ex tempore, labore odio maxime eligendi corporis, architecto debitis sit accusamus vel aspernatur soluta necessitatibus, neque iusto natus reprehenderit quidem cum expedita a delectus? Voluptates id dicta fugiat porro maiores dolorum voluptatibus quaerat aliquid ullam mollitia animi ipsum incidunt unde eos, possimus illum non tenetur! Nihil possimus eveniet, quasi modi iste quibusdam, repudiandae saepe a deleniti cumque dignissimos distinctio, exercitationem culpa? Rem et eius aliquam sint? Labore officiis suscipit beatae repellendus eum.</p>
+                    <p class="detail-event">Detail Event Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro soluta cum fuga quidem autem id odio dolor velit vero, aut ullam quaerat quod ad! Beatae blanditiis et assumenda ex tempore, labore odio maxime eligendi corporis, architecto debitis sit accusamus vel aspernatur soluta necessitatibus, neque iusto natus reprehenderit quidem cum expedita a delectus? Voluptates id dicta fugiat porro maiores dolorum voluptatibus quaerat aliquid ullam mollitia animi ipsum incidunt unde eos, possimus illum non tenetur! Nihil possimus eveniet, quasi modi iste quibusdam, repudiandae saepe a deleniti cumque dignissimos distinctio, exercitationem culpa? Rem et eius aliquam sint? Labore officiis suscipit beatae repellendus eum.</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="">
+                        <button type="button" class="btn btn-danger"><i class="bi bi-geo-alt"></i> Lokasi</button>
+                    </a>
                 </div>
             </div>
         </div>

@@ -58,7 +58,7 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
             <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nama Produk</h1>
+                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Nama Produk</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -81,7 +81,9 @@ JOIN penduduk ON penjual.nama_penjual=penduduk.id');
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Tutup</button>
+                        <a href="">
+                            <button type="button" class="btn btn-danger"><i class="bi bi-geo-alt"></i> Lokasi</button>
+                        </a>
                     </div>
                 </div>
             </div>

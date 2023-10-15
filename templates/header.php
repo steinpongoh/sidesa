@@ -93,9 +93,9 @@ include 'templates/dbconnect.php';
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
-            <div class="vr" style="margin-left:5px"></div>
+            <div class="vr"></div>
             <div class="dropdown animate__animated animate__fadeIn">
-              <button class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="nav-link w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <?php echo $_SESSION['username']; ?>
               </button>
               <ul class="dropdown-menu">
