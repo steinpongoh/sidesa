@@ -7,10 +7,6 @@
   --animate-delay: 1.5s;
 }
 
-::-webkit-scrollbar {
-  scroll-behavior: smooth;
-  display: none;
-}
 
 body {
   font-size: 1.2rem;

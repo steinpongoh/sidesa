@@ -72,19 +72,19 @@ include 'templates/dbconnect.php';
               </a>
               <ul class="dropdown-menu text-center border-0">
                 <li>
-                  <a class="dropdown-item" href="index.php#strukturpemerintah">Struktur Pemerintahan</a>
+                  <a class="dropdown-item" href="index1.php#strukturpemerintah">Struktur Pemerintahan</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#visimisi">Visi Misi Desa</a>
+                  <a class="dropdown-item" href="index1.php#visimisi">Visi Misi Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#sejarahdesa">Sejarah Desa</a>
+                  <a class="dropdown-item" href="index1.php#sejarahdesa">Sejarah Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#tatatertib">Tata Tertib Desa</a>
+                  <a class="dropdown-item" href="index1.php#tatatertib">Tata Tertib Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#statistik">Statistik Kependudukan</a>
+                  <a class="dropdown-item" href="index1.php#statistik">Statistik Kependudukan</a>
                 </li>
               </ul>
             </li>
