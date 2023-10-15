@@ -2,10 +2,10 @@
 session_start();
 $usernamed = $_SESSION['username'];
 $role = $_SESSION['role'];
-if(empty($usernamed) && ($role =='')){
+if (empty($usernamed) && ($role == '')) {
   header("location:login.php");
 }
-if($role !=='2'){
+if ($role !== '2') {
   header("location:login.php");
 }
 
@@ -72,19 +72,19 @@ include 'templates/dbconnect.php';
               </a>
               <ul class="dropdown-menu text-center border-0">
                 <li>
-                  <a class="dropdown-item" href="#strukturpemerintah">Struktur Pemerintahan</a>
+                  <a class="dropdown-item" href="index.php#strukturpemerintah">Struktur Pemerintahan</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#visimisi">Visi Misi Desa</a>
+                  <a class="dropdown-item" href="index.php#visimisi">Visi Misi Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#sejarahdesa">Sejarah Desa</a>
+                  <a class="dropdown-item" href="index.php#sejarahdesa">Sejarah Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#tatatertib">Tata Tertib Desa</a>
+                  <a class="dropdown-item" href="index.php#tatatertib">Tata Tertib Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#statistik">Statistik Kependudukan</a>
+                  <a class="dropdown-item" href="index.php#statistik">Statistik Kependudukan</a>
                 </li>
               </ul>
             </li>
@@ -95,13 +95,13 @@ include 'templates/dbconnect.php';
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
             <div class="vr" style="margin-left:5px"></div>
             <div class="dropdown animate__animated animate__fadeIn">
-            <button class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <?php echo $_SESSION['username'];?>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="logout.php">Logout</a></li>
-            </ul>
-          </div>
+              <button class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <?php echo $_SESSION['username']; ?>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
