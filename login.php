@@ -3,6 +3,15 @@ include 'templates/header1.php';
 include 'function.php';
 
 ?>
+<script type="text/javascript">
+    function preventBack(){
+      window.history.forward()
+    };
+    setTimeout("preventBack()",0);
+    window.onunload=function(){
+      null;
+    }
+</script>
 <section id="login" class="login">
   <div class="container">
     <div class="row justify-content-center" data-aos="fade-down-left">
@@ -18,8 +27,6 @@ include 'function.php';
             <label for="password" class="form-label">Password</label>
             <input name="password" type="password" class="form-control form-control-sm border border-black p-2 mb-2 border-opacity-50" required placeholder="Password" id="password">
           </div>
-          <input name="ingat" type="checkbox" required id="ingat">
-          <label for="ingat" class="form-label">Ingat Saya</label>
           <div class="mt-3 d-flex justify-content-center">
             <button type="submit" id="masuk" name="masuk" class="btn btn-success">Masuk</button>
           </div><br>
