@@ -1,17 +1,3 @@
-<?php
-session_start();
-$usernamed = $_SESSION['username'];
-$role = $_SESSION['role'];
-if (empty($usernamed) && ($role == '')) {
-  header("location:login.php");
-}
-if ($role !== '2') {
-  header("location:login.php");
-}
-
-include 'templates/dbconnect.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +50,7 @@ include 'templates/dbconnect.php';
         </div>
         <div class="offcanvas-body">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link animate__animated animate__fadeIn" href="index1.php">Beranda</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="index.php">Beranda</a>
             <a class="nav-link animate__animated animate__fadeIn" href="berita.php">Berita</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,19 +58,19 @@ include 'templates/dbconnect.php';
               </a>
               <ul class="dropdown-menu text-center border-0">
                 <li>
-                  <a class="dropdown-item" href="index1.php#strukturpemerintah">Struktur Pemerintahan</a>
+                  <a class="dropdown-item" href="index.php#strukturpemerintah">Struktur Pemerintahan</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index1.php#visimisi">Visi Misi Desa</a>
+                  <a class="dropdown-item" href="index.php#visimisi">Visi Misi Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index1.php#sejarahdesa">Sejarah Desa</a>
+                  <a class="dropdown-item" href="index.php#sejarahdesa">Sejarah Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index1.php#tatatertib">Tata Tertib Desa</a>
+                  <a class="dropdown-item" href="index.php#tatatertib">Tata Tertib Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index1.php#statistik">Statistik Kependudukan</a>
+                  <a class="dropdown-item" href="index.php#statistik">Statistik Kependudukan</a>
                 </li>
               </ul>
             </li>
@@ -93,15 +79,6 @@ include 'templates/dbconnect.php';
             <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
             <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
-            <div class="vr"></div>
-            <div class="dropdown animate__animated animate__fadeIn">
-              <button class="nav-link w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <?php echo $_SESSION['username']; ?>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="logout.php">Logout</a></li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
