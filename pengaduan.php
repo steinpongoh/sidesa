@@ -6,7 +6,7 @@ if (isset($_POST['kirim'])) {
   if (pengaduan($_POST, $_FILES) > 0) {
     echo "<script>
       alert('Pengaduan Berhasil Di Kirim')
-      document.location.href='index.php'
+      document.location.href='pengaduan.php'
     </script>";
   } else {
     echo "<script>
