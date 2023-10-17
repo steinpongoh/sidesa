@@ -58,16 +58,16 @@
               </a>
               <ul class="dropdown-menu text-center border-0">
                 <li>
-                  <a class="dropdown-item" href="index.php#strukturpemerintah">Struktur Pemerintahan</a>
+                  <a class="dropdown-item" href="strukturpemerintah.php">Struktur Pemerintahan</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#visimisi">Visi Misi Desa</a>
+                  <a class="dropdown-item" href="visimisi.php">Visi Misi Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#sejarahdesa">Sejarah Desa</a>
+                  <a class="dropdown-item" href="sejarahdesa.php">Sejarah Desa</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="index.php#tatatertib">Tata Tertib Desa</a>
+                  <a class="dropdown-item" href="tatatertib.php">Tata Tertib Desa</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="index.php#statistik">Statistik Kependudukan</a>

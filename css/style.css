@@ -122,8 +122,8 @@ body {
 /* Struktur Pemerintah start */
 .strukturpemerintah {
   min-height: 100vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 5rem 0;
+  background-color: var(--bg);
 }
 
 .strukturpemerintah h2 {
@@ -140,10 +140,10 @@ body {
 /* Visi & Misi Desa start*/
 .visimisi {
   min-height: 100vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
   line-height: 2rem;
-  background-color: rgb(93 142 133 / 0.3);
+  background-color: var(--bg);
 }
 
 .visimisi h2 {
@@ -160,10 +160,11 @@ body {
 
 /* Sejarah Desa start */
 .sejarahdesa {
-  min-height: 80vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
   line-height: 2rem;
+  background-color: var(--bg);
 }
 
 .sejarahdesa h2 {
@@ -181,11 +182,11 @@ body {
 
 /* Tata Tertib Desa start */
 .tatatertib {
-  min-height: 80vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
   line-height: 2rem;
-  background-color: rgb(93 142 133 / 0.3);
+  background-color: var(--bg);
 }
 
 .tatatertib h2 {
