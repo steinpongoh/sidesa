@@ -25,6 +25,10 @@ if (isset($_POST['kirim'])) {
         <p class="text-center">Sistem Informasi Desa Tondangow menyediakan forum pengaduan masyarakat, apabila ada masyarakat yang ingin melakukan pengaduan</p>
         <div class="container-form shadow p-5 mt-4 mb-4 rounded-2 border-top border-success border-3 bg-light">
           <div class="mb-3">
+            <label for="nik" class="form-label">NIK:</label>
+            <input name="nik" type="number" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="nik">
+          </div>
+          <div class="mb-3">
             <label for="nama" class="form-label">Nama Lengkap:</label>
             <input name="nama" type="text" class="form-control form-control-sm border border border-black p-2 mb-2 border-opacity-50" autocomplete="off" id="nama">
           </div>
