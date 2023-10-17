@@ -51,8 +51,7 @@
         <div class="offcanvas-body">
           <div class="navbar-nav ms-auto">
             <a class="nav-link animate__animated animate__fadeIn" href="index.php">Beranda</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="berita.php">Berita</a>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Profil Desa
               </a>
@@ -74,10 +73,31 @@
                 </li>
               </ul>
             </li>
-            <a class="nav-link animate__animated animate__fadeIn" href="pengumuman.php">Pengumuman</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="event.php">Event</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="umkm.php">UMKM</a>
-            <a class="nav-link animate__animated animate__fadeIn" href="galeri.php">Galeri</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle animate__animated animate__fadeIn" href="#profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Informasi Publik
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li>
+                  <a class="dropdown-item" href="berita.php">Berita</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pengumuman.php">Pengumuman</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="event.php">Event</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="umkm.php">UMKM</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="galeri.php">Galeri</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="danadesa.php">Dana Desa</a>
+                </li>
+              </ul>
+            </li>
             <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
           </div>
         </div>
