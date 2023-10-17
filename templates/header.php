@@ -37,14 +37,14 @@
 <body>
   <nav class="navbar navbar-expand-md bg-body-transparent fixed-top mynavbar">
     <div class="container">
-      <a class="navbar-brand animate__animated animate__lightSpeedInLeft" href="index.php">Desa Tondangow</a>
+      <a class="navbar-brand animate__animated animate__lightSpeedInLeft" href="index.php">Desa <span>Tondangow</span></a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-            Desa Tondangow
+            Desa <span>Tondangow</span>
           </h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>

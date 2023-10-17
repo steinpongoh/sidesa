@@ -6,6 +6,9 @@
   --animate-duration: 1.5s;
   --animate-delay: 1.5s;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   font-size: 1.2rem;
@@ -51,8 +54,13 @@ body {
 /* Navbar start */
 .mynavbar {
   font-size: 0.7rem;
-  /* font-weight: 600;  */
-  background-color: var(--green-transparant);
+  background-color: var(--green);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.mynavbar .offcanvas {
+  background-color: var(--green);
 }
 
 .mynavbar .nav-link {
@@ -88,6 +96,11 @@ body {
   font-weight: bold;
   color: white;
 }
+
+.mynavbar .navbar-brand span,
+.mynavbar .offcanvas-title span {
+  color: #ffa500;
+}
 .mynavbar .dropdown-menu {
   background-color: var(--bg);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
@@ -103,7 +116,6 @@ body {
   background-color: #ffa500;
   transition: 0.3s ease-in-out;
 }
-
 /* Navbar end */
 
 /* Struktur Pemerintah start */
