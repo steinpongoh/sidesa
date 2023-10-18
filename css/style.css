@@ -197,10 +197,9 @@ body {
 
 /* Statistik Kependudukan start*/
 .statistik {
-  min-height: 80vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  line-height: 2rem;
+  min-height: 100vh;
+  margin-bottom: -3rem;
+  padding: 5rem 0;
 }
 
 .statistik h2 {
@@ -210,7 +209,7 @@ body {
 }
 
 .statistik span {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
 }
 
@@ -231,6 +230,10 @@ body {
 .berita h1 {
   color: var(--green);
   font-weight: 600;
+}
+
+.detail_berita {
+  max-height: 60vh;
 }
 /* .detailBerita {
   min-height: 100vh;
@@ -586,7 +589,7 @@ body {
 
 /* Gallery start */
 .gallery {
-  min-height: 110vh;
+  min-height: 100vh;
   padding: 5rem 0;
   margin-bottom: -3rem;
   background-color: #f5f5f5;
@@ -604,18 +607,19 @@ body {
 }
 
 /* Gallery end */
-/* login start */
-.login {
+/* Dana Desa Start */
+.danadesa {
   min-height: 100vh;
-  padding-top: 5rem;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
   background-color: #f5f5f5;
 }
 
-.login h1 {
+.danadesa h1 {
   color: var(--green);
   font-weight: 600;
 }
-/* login end */
+/* Dana Desa End */
 
 /* Footer start */
 footer {
