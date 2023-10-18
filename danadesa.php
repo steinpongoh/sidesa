@@ -12,9 +12,9 @@ include 'templates/header.php';
                 <p>Dana Desa adalah dana yang bersumber dari Anggaran Pendapatan dan Belanja Negara yang diperuntukkan bagi desa yang ditransfer melalui APBD kabupaten/kota dan digunakan untuk membiayai penyelenggaraan pemerintahan, pelaksanaan pembangunan, pembinaan kemasyarakatan, dan pemberdayaan masyarakat.</p>
             </div>
             <div class="col-md-10 text-center">
-                <table class="table table-bordered border-black">
+                <table class="table table-bordered border-success">
                     <thead>
-                        <tr class="table-dark">
+                        <tr class="table-success table-bordered border-success">
                             <th scope="col">#</th>
                             <th scope="col">Informasi</th>
                             <th scope="col">Deskripsi</th>
@@ -23,13 +23,8 @@ include 'templates/header.php';
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto< /td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
+                            <td>Tentang dana dipake untuk apa mungkin</td>
+                            <td>Tentang Deskripsi anggaran mungkin</td>
                         </tr>
                     </tbody>
                 </table>
