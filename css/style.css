@@ -327,9 +327,9 @@ body {
 /* Event Start */
 .event {
   min-height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
   margin-bottom: -3rem;
+  background-color: #f5f5f5;
 }
 .event h1 {
   color: var(--green);
@@ -358,7 +358,50 @@ body {
   padding: 40px;
   margin-top: -15px;
 }
-/* Event-Modal Start */
+
+.detailevent {
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
+  background-color: #f5f5f5;
+}
+.detailEvent {
+  min-height: 100vh;
+  padding: 5rem 0;
+  margin-bottom: -3rem;
+}
+.detailEvent h2 {
+  color: var(--green);
+  font-weight: 600;
+  border-bottom: 2px solid var(--green);
+}
+.detailEvent p {
+  font-size: 12px;
+}
+.detailEvent .img-detail {
+  width: 100%;
+  background-color: var(--green);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.detailEvent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  width: 600px;
+}
+.detailEvent .isi-event {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/* Event-Modal Start
 .card-image-event {
   position: relative;
   height: 200px;
@@ -385,7 +428,7 @@ body {
   margin: 4px 4px;
   font-size: 6px;
   border-bottom: 2px solid #2e5b53;
-}
+} */
 /* Event-Modal End */
 
 /* Event End */
