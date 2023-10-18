@@ -16,7 +16,7 @@ $queryPengaduan = query('SELECT * FROM pengaduan');
         </a><br>
         <br>
         <table class="table table-bordered border-primary" id="dataTable" width="100%" cellspacing="0">
-            <thead>
+            <thead class="table-dark">
                 <tr>
                     <th>No</th>
                     <th>Nama Lengkap</th>
