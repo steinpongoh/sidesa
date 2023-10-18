@@ -436,12 +436,8 @@ body {
 /* UMKM Start */
 .produk {
   min-height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
   margin-bottom: -3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f5f5f5;
 }
 .produk h1 {
@@ -450,7 +446,7 @@ body {
 }
 .slide-container {
   max-width: 1120px;
-  width: 100%;
+  width: 60%;
   padding: 40px 0;
 }
 .slide-content {
