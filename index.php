@@ -16,6 +16,12 @@ $jumlahWanita = count(query('SELECT * FROM penduduk WHERE jenis_kelamin = "Wanit
 </section>
 <!-- Home -->
 
+<!-- Highlight Berita Start -->
+
+
+
+<!-- Highlight Berita End-->
+
 
 <!-- Statistik Kependudukan -->
 <section id="statistik" class="statistik">
