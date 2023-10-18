@@ -22,7 +22,7 @@ if (isset($_POST['kirim'])) {
     <div class="row justify-content-center" data-aos="fade-down-left">
       <form id="form" method="post" action="" class="col-md-8 col-10 " enctype="multipart/form-data">
         <h1 class="text-center">Pengaduan Masyarakat</h1>
-        <p class="text-center">Sistem Informasi Desa Tondangow menyediakan forum pengaduan masyarakat, apabila ada masyarakat yang ingin melakukan pengaduan</p>
+        <p class="text-center">Pastikan NIK anda sudah terdaftar sebelum mengisi Pengaduan</p>
         <div class="container-form shadow p-5 mt-4 mb-4 rounded-2 border-top border-success border-3 bg-light">
           <div class="mb-3">
             <label for="nik" class="form-label">NIK:</label>

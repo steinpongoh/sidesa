@@ -98,7 +98,7 @@
                 </li>
               </ul>
             </li>
-            <a class="nav-link animate__animated animate__fadeIn" href="pengaduan.php">Pengaduan Masyarakat</a>
+            <a class="nav-link animate__animated animate__fadeIn" href="list_pengaduan.php">Pengaduan Masyarakat</a>
           </div>
         </div>
       </div>
