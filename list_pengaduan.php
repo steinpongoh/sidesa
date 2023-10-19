@@ -16,7 +16,7 @@ $queryPengaduan = query('SELECT * FROM pengaduan');
         </a><br>
         <br>
         <table class="table table-bordered border-primary" id="dataTable" width="100%" cellspacing="0">
-            <thead class="table-dark">
+            <thead class="table-dark border-primary">
                 <tr>
                     <th>No</th>
                     <th>Nama Lengkap</th>
@@ -36,7 +36,7 @@ $queryPengaduan = query('SELECT * FROM pengaduan');
                         <td><?php echo $rows['nama_pengadu'] ?></td>
                         <td><?php echo $rows['alamat_lengkap'] ?></td>
                         <td>
-                            <img width="60px" height="60px" src="/img/pengaduan/<?php echo $rows['gambar']?>" alt="">
+                            <img width="60px" height="60px" src="img/pengaduan/<?php echo $rows['gambar']?>" alt="">
                         </td>
                         <td><?php echo $rows['judul_pengaduan']?></td>
                         <td><?php echo date('d M Y H:i', strtotime($rows['tanggal_pengaduan']))?></td>
