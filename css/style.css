@@ -6,9 +6,6 @@
   --animate-duration: 1.5s;
   --animate-delay: 1.5s;
 }
-::-webkit-scrollbar {
-  display: none;
-}
 
 body {
   font-size: 1.2rem;
